@@ -101,7 +101,8 @@
         </section>
         <section class="taste">
             <div class="container">
-                <h2 class="taste-title">It all adds up to one exceptional <span>taste</span> sensation</h2>
+                <h2 class="taste-title section-title">It all adds up to one exceptional <span>taste</span> sensation
+                </h2>
                 <ul class="taste-list">
                     <li class="taste-item">
                         <img src="./images/taste-img-1.png" class="taste-img" width="214" height="160"
@@ -372,6 +373,46 @@
             </nav>
         </div>
     </footer>
+    <div class="backdrop is-open">
+        <div class="modal">
+            <button type="button" class="modal-btn">
+                <svg class="modal-btn-icon" width="28" height="28">
+                    <use href="./images/icons.svg#icon-x-close"></use>
+                </svg>
+            </button>
+            <p class="modal-title section-title">
+                LEAVE A REVIEW ABOUT <span>OUR CHOCOLATE</span>
+            </p>
+            <form class="modal-form">
+                <div class="modal-field">
+                    <label for="user-name" class="modal-label">Name</label>
+                    <div class="modal-input-wrap">
+                        <input type="text" name="user-name" class="modal-input" id="user-name">
+                        <svg class="modal-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-user">
+                            </use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal-field">
+                    <label for="user-email" class="modal-label">E-mail</label>
+                    <input type="text" name="user-email" class="modal-input" id="user-email">
+                </div>
+                <div class="modal-field">
+                    <label for="user-phone" class="modal-label">Phone</label>
+                    <input type="text" name="user-phone" class="modal-input" id="user-phone">
+                </div>
+                <div class="modal-field">
+                    <label for="user-text" class="modal-label">Comment</label>
+                    <textarea name="user-text" id="user-text" class="modal-text" placeholder="Enter text"></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+
+        </div>
+    </div>
+
+
 </body>
 
 </html>
