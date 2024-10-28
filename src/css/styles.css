@@ -212,7 +212,6 @@ button {
     margin-right: 14px;
     transition: background-color 300ms cubic-bezier(0.39, 0.575, 0.565, 1),
         color 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
-
 }
 
 .hero-btn:hover,
@@ -765,9 +764,7 @@ button {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
+    transition: opacity 250ms ease-in-out;
 }
 
 .modal {
@@ -871,4 +868,18 @@ button {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+}
+
+/*=========================*/
+.users-container {
+    background-color: #FCF1E0;
+}
+
+.users-title {
+    text-align: center;
+}
+
+.img-responsive {
+    display: block;
+    width: 100%;
 }
