@@ -769,7 +769,7 @@ button {
 
 .modal {
     width: 517px;
-    height: 794px;
+    height: 80%;
     background-color: #fafafa;
     border-radius: 15px;
     position: absolute;
@@ -777,6 +777,7 @@ button {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 40px;
+    overflow-y: auto;
 }
 
 .modal-title {
